@@ -256,12 +256,29 @@
     margin: 1.5625rem 0 0.625rem;
 }
 
+.blog-text{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .key-points-list{
     margin-left: 20px;
 }
 
 ul li::marker{
     color: rgb(37, 37, 221);
+}
+
+ol li::marker{
+    color: rgb(37, 37, 221);
+}
+
+ol > li{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    line-height: 1.5;
 }
 
 img{
