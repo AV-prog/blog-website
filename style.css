@@ -64,30 +64,6 @@
     font-weight: bold;
 }
 
-.navbar_btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #130068;
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
 .navbar_links:hover{
     color: #a5feccc9;
     transition: all 0.3s ease;
@@ -286,6 +262,78 @@ img{
     height: auto;
     margin: 20px 0;
     border-radius: 4px;
+}
+
+/* Author Section */
+.author-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.author-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.author-container .heading{
+    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 25px 0 10px;
+    margin: 1.5625rem 0 0.625rem;
+}
+
+.author-name{
+    font-family: "Chronicle Text G1 A", "Chronicle Text G1 B";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin: 25px 0 10px;
+    margin: 1.5625rem 0 0.625rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color: #000000;
+}
+
+.author-name:hover{
+    transition: all 0.5s ease;
+    border-bottom: 4px solid #4b4d4cc9;
+}
+
+.author-info{
+    margin-left: -50px;
+}
+
+.author-title{
+    font-size: 20px;
+    color: #3e3737;
+    margin-bottom: 10px;
+}
+
+.author-bio{
+    font-size: 19px;
+    color: #786f6f;
+    line-height: 1.5;
+}
+
+.author-img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: #000000 solid 1px;
+    padding: 3px;
 }
 
 /* Services Section */
