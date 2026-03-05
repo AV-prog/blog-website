@@ -190,7 +190,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 
 .blog-content{
@@ -200,17 +200,9 @@
     justify-content: center;
     height: 90%;
     width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-    border: #000000 solid 1px;
-}
-
-.scroll-back--up{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    border-left: #000000 solid 1px;
+    max-width: 1150px;
+    padding-left: 18px;
+    padding-top: 18px;
 }
 
 .blog-introduction, .blog, .blog-conclusion{
@@ -336,6 +328,19 @@ img{
     padding: 3px;
 }
 
+
+/* Scroll Back to Top Section */
+.fa-arrow-up-long{
+    color: #000000;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.scroll-back--up{
+    margin-top: -3000px;
+    position: sticky;
+    top: 50px;
+}
 /* Services Section */
 .services{
     background: #ffffff;
