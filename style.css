@@ -517,88 +517,53 @@ ol > li{
     font-size: 2.5rem;
 }
 
-.services_wrapper{
+.just-another-div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.services_card{
-    margin: 10px;
+.other-blog_card{
+    margin: 20px;
     height: 425px;
-    width: 280px;
+    width: 250px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #000000;
-    background-image: url('../images/bottle1.jpg');
-    background-size: cover;
-    background-position: center;
-    transition: 0.3s ease-in;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.services_card:nth-child(2) {
-    color: #ffffff;
-    background-image: url('../images/close-up-hand-with-drink-bottles.jpg');
-    background-size: cover;
-    background-position: center;
+.other-blog_card:hover {
+    transform: scale(1.025);
     transition: 0.3s ease-in;
-
+    cursor: pointer;
 }
 
-.services_card:nth-child(3) {
-    color: #ffffff;
-    background-image: url('../images/bottle-beer-desk.jpg');
-    background-size: cover;
-    background-position: center;
-    transition: 0.3s ease-in;
+.other-blog_card a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3b3737;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
-.services_card:nth-child(4) {
-    color: #000000;
-    background-image: url('../images/white-sports-bottle-equipment.jpg');
-    background-size: cover;
-    background-position: center;
-    transition: 0.3s ease-in;
+.other-blog_card a:hover{
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #4c4a4a;
 }
-    .services_card h2 {
-        text-align: center;
-    }
 
-    .services_card p {
-        text-align: center;
-        margin-top: 24px;
-        font-size: 20px;
-    }
+.other-blog_card > .info{
+    font-size: 12px;
+    color: #3b3737;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
 
-    .services_btn {
-        display: flex;
-        justify-content: center;
-        margin-top: 16px;
-    }
-
-    .services_card button{
-        color: #fff;
-        padding: 14px 24px;
-        border: none;
-        outline: none;
-        border-radius: 4px;
-        background: #131313;
-        font-size: 1rem;
-    }
-
-    .services_card button:hover{
-        cursor: pointer;
-    }
-
-    .services_card:hover {
-        transform: scale(1.075);
-        transition: 0.3s ease-in;
-        cursor: pointer;
-
-    }
 
 /* Footer Section */
 .footer_container {
@@ -610,6 +575,17 @@ ol > li{
     align-items: center;
 }
 
+.yet-another-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #cfa39c;
+    padding: 20px;
+    margin-top: -200px;
+    width: 1000px;
+}
+
 #footer_logo{
     color: #fff;
     display: flex;
@@ -617,6 +593,8 @@ ol > li{
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .footer_links{
@@ -653,7 +631,7 @@ ol > li{
 }
 
 .footer_links--items a:hover {
-    color: #31cbdf;
+    color: #4148a5;
     transition: 0.3 ease-out;
 }
 
