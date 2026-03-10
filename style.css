@@ -532,11 +532,11 @@ ol > li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: 0.3s ease-in-out;
 }
 
 .other-blog_card:hover {
     transform: scale(1.025);
-    transition: 0.3s ease-in;
     cursor: pointer;
 }
 
