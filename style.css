@@ -329,17 +329,34 @@ ol > li{
 
 
 /* Scroll Back to Top Section */
-.fa-arrow-up-long{
-    color: #000000;
+.fa-angle-up{
     font-size: 2rem;
-    transition: all 0.3s ease;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border-radius: 50%;
+    background-color: #ffffff;
 }
 
-.scroll-back--up{
-    margin-top: -3000px;
-    position: sticky;
-    top: 50px;
+.fa-angle-up:hover{
+    transition: all 0.8s ease;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ff3d3d;
 }
+
+.for-scroll-back{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    margin-bottom: 50px;
+}
+
  
 /* Other Blogs */
 .other_blogs{
