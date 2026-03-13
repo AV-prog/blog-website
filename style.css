@@ -65,9 +65,9 @@
 }
 
 .navbar_links:hover{
-    color: #a5feccc9;
+    color: #ff0000;
     transition: all 0.3s ease;
-    border-bottom: 4px solid #a5feccc9;
+    border-bottom: 4px solid #e30000;
 }
 
 /* Hero Section */
@@ -164,7 +164,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../images/iran-vs-usa.jpg');
+    background-image: url('../images/iran_vs_usa.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -297,14 +297,24 @@ ol > li{
 }
 
 .author-title{
-    font-size: 20px;
-    color: #3e3737;
+    font-size: 15px;
+    color: #786f6f;
     margin-bottom: 10px;
+}
+
+.author-title > a{
+    text-decoration: none;
+    color: #786f6f;
+    transition: all 0.5s ease-in-out;
+}
+
+.author-title > a:hover{
+    color: #000000;
 }
 
 .author-bio{
     font-size: 19px;
-    color: #786f6f;
+    color: #3e3737;
     line-height: 1.5;
 }
 
@@ -377,10 +387,10 @@ ol > li{
 .other-blog_card1 a{
     text-decoration: none;
     color: #000000;
-    font-size: 50px;
+    font-size: 45px;
     transition: all 0.3s ease;
     font-family: "Chronicle Text G1 A", "Chronicle Text G1 B";
-    text-align: center
+    text-align: center;
 }
 
 .other-blog_card1 a:hover{
@@ -515,7 +525,7 @@ ol > li{
 
 .other-blog_card{
     margin: 20px;
-    height: 425px;
+    height: 450px;
     width: 250px;
     border-radius: 4px;
     display: flex;
@@ -531,7 +541,7 @@ ol > li{
 
 .other-blog_card a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     transition: all 0.3s ease;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -547,11 +557,17 @@ ol > li{
 }
 
 .other-blog_card > .info{
-    font-size: 12px;
+    font-size: 0.8rem;
     color: #3b3737;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
+}
+
+.other-blog_card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
 }
 
 
